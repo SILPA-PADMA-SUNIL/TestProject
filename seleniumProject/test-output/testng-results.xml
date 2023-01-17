@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-17T10:48:08 IST" name="Default suite" finished-at="2023-01-17T10:48:37 IST" duration-ms="29114">
+    <groups>
+    </groups>
+    <test started-at="2023-01-17T10:48:08 IST" name="Default test" finished-at="2023-01-17T10:48:37 IST" duration-ms="29114">
+      <class name="testngSample.TableXpath">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testngSample.TableXpath@942a29c]" started-at="2023-01-17T10:48:08 IST" name="beforeMethod" finished-at="2023-01-17T10:48:21 IST" duration-ms="12289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifySearchFunctionalityByUsingClientName()[pri:1, instance:testngSample.TableXpath@942a29c]" started-at="2023-01-17T10:48:21 IST" name="verifySearchFunctionalityByUsingClientName" finished-at="2023-01-17T10:48:25 IST" duration-ms="4136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchFunctionalityByUsingClientName -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testngSample.TableXpath@942a29c]" started-at="2023-01-17T10:48:25 IST" name="afterMethod" finished-at="2023-01-17T10:48:25 IST" duration-ms="564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testngSample.TableXpath@942a29c]" started-at="2023-01-17T10:48:25 IST" name="beforeMethod" finished-at="2023-01-17T10:48:33 IST" duration-ms="7593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="displayClientDetailsOfTom()[pri:3, instance:testngSample.TableXpath@942a29c]" started-at="2023-01-17T10:48:33 IST" name="displayClientDetailsOfTom" finished-at="2023-01-17T10:48:37 IST" duration-ms="3897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayClientDetailsOfTom -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testngSample.TableXpath@942a29c]" started-at="2023-01-17T10:48:37 IST" name="afterMethod" finished-at="2023-01-17T10:48:37 IST" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testngSample.TableXpath -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
