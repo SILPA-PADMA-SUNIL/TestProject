@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngSample.TableXpath">
+      <class name="testngSample.DragAndDropPrograme">
         <methods>
-          <include name="verifySearchFunctionality"/>
-          <include name="verifySearchFunctionalityByUsingClientName"/>
           <include name="afterMethod"/>
+          <include name="dragAndDrop"/>
           <include name="beforeMethod"/>
         </methods>
-      </class> <!-- testngSample.TableXpath -->
+      </class> <!-- testngSample.DragAndDropPrograme -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
