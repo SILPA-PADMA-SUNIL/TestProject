@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngSample.DragAndDropPrograme">
+      <class name="testngSample.TestClassForLogin">
         <methods>
-          <include name="afterMethod"/>
-          <include name="dragAndDrop"/>
           <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="verifyUnSuccessfulLogin" invocation-numbers="0"/>
         </methods>
-      </class> <!-- testngSample.DragAndDropPrograme -->
+      </class> <!-- testngSample.TestClassForLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
